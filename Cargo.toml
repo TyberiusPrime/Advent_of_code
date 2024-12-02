@@ -38,6 +38,7 @@ publish = false
 thiserror = { workspace = true }
 vectrix = { workspace = true }
 advent = { path = "crates/advent", features = ["festive", "prelude"] }
+nom = "7.1.3"
 
 [features]
 json = ["advent/json"]
