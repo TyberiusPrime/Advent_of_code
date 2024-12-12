@@ -1,3 +1,4 @@
+#![allow(unused_imports)]
 use advent::prelude::*;
 use nom::{
     bytes::complete::take_while1,
